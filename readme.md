@@ -81,3 +81,13 @@ The **Bondora Rating** was the most influential variable. The coefficient analys
   * **Visualization:** `matplotlib.pyplot`, `seaborn`
   * **Statistical Methods:** `scipy.stats`
 
+
+## 6\. Key Project Insights
+
+| Insight Category | Finding | Detail in Documentation |
+| :--- | :--- | :--- |
+| **Risk Premium** | **High-risk customers pay higher rates.** | Loans flagged as high-risk (Debt-to-Income $\ge 0.35$ AND unstable employment) had an average interest rate of **28.86%**, compared to **26.99%** for non-risky loans. |
+| **Model Performance** | **Strong predictive power achieved.** | The final **Complex Linear Regression** model achieved an **$R^2$ of 0.604**, indicating it explains over 60% of the variance in loan interest rates. |
+| **Dominant Predictor** | **Credit Rating is the single most important factor.** | The **Bondora Rating** category was found to have the highest statistical significance. The worst rating ('HR') added a massive coefficient of **+62.28** to the interest rate calculation in the model, while the best rating ('AA') reduced the base rate by **-3.47**. |
+| **Loan Fulfillment** | **Discrepancy between applied and received amounts.** | The analysis confirmed a small but significant proportion (between **2.7% and 2.8%**) of loans where the amount received was less than the amount applied for. |
+
